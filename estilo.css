@@ -191,6 +191,7 @@ textarea{
 }
 .foot_logo{
     width: 225px;
+    transition: transform 2s ;
 }
 .f_redes{
     display: flex;
@@ -204,5 +205,10 @@ textarea{
 p{
     text-align: center;
 }
+.foot_move:hover{
+    transform: rotateY(360deg);
+}
+
+
 
 
